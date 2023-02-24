@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    </link>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Employee Payroll App</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img  src="../assets/images/logo.png" alt="">
+            <div>
+                <span class="emp-text">Employee</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Details <div class="emp-count">10</div>
+            </div>
+            <a href="../pages/employee.html" class="add-button"> <img src="../assets/icon/add-24px.svg" alt="">Add
+                User</a>
+        </div>
+        <div class="table-main">
+            <table id="table-diplay" class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Action</th>
+                </tr>
+                <tr id="data-output">
+                    <td><img class="profile" src="/assets/images/Ellipse -3.png" alt="" width="50" height="40"></td>
+                    <td>Smith</td>
+                    <td>Male</td>
+                    <td>
+                        <div class='dept-table'>HR</div>
+                        <div class="dept-table">Finance</div>
+                    </td>
+                    <td>3000000</td>
+                    <td>1 Nov 2020</td>
+                    <td>
+                        <button><img id="1" src="../assets/icon/delete-black-18dp.svg" class="delete-btn" alt="delete"></button>
+                       <button> <img id="1" src="../assets/icon/create-black-18dp.svg" alt="edit"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- <script>
+        jQuery(document).ready(function () {
+
+            $.getJSON("../db.json",
+                function (data) {
+                    console.log(data, "Succesfully get data")
+                    var employee = '';
+
+                    $.each(data, function (key, value) {
+                        console.log(value)
+
+                        for (i = 0; i < value.length; i++) {
+                            employee += '<tr>';
+
+                            employee += '<td>' +
+                            `<img  src='${value[i].profile}'/>`+'</td>';
+
+                            employee += '<td>' +
+                                value[i].name + '</td>';
+
+                            employee += '<td>' +
+                                value[i].gender + '</td>';
+
+                            employee += '<td>' +
+                                value[i].department + '</td>';
+
+                            employee += '<td>' +
+                                value[i].salary + '</td>';
+
+                            employee += '<td>' +
+                                value[i].Day + ' ' + value[i].Month + ' ' + value[i].Year + '</td>';
+
+                            employee+=  '<td>'+
+                       ' <img id="1" src="../assets/icon/delete-black-18dp.svg" width="25" alt="delete">'+
+                        '<img id="1" src="../assets/icon/create-black-18dp.svg" alt="edit">'+
+                    '</td>'
+
+                            employee += '</tr>';
+                        }
+                    });
+
+                    $('#table-diplay').append(employee);
+                });
+        });
+    </script> -->
+    <script src="../js/home.js"></script>
+
+
+
+</body>
+
+</html>

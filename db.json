@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "name": "Amar",
+      "profile": "../assets/images/Ellipse-8.png",
+      "gender": "male",
+      "department": "sales",
+      "salary": "402600",
+      "Day": "20",
+      "Month": "July",
+      "Year": "2020",
+      "Notes": "",
+      "id": 1
+    },
+    {
+      "name": "Rohan",
+      "profile": "../assets/images/Ellipse -3.png",
+      "gender": "male",
+      "department": "HR",
+      "salary": "250400",
+      "Day": "17",
+      "Month": "Feb",
+      "Year": "2021",
+      "Notes": "",
+      "id": 2
+    },
+    {
+      "name": "Dolly",
+      "profile": "../assets/images/Ellipse 1.png",
+      "gender": "female",
+      "department": "Finance",
+      "salary": "372600",
+      "Day": "17",
+      "Month": "Oct",
+      "Year": "2020",
+      "Notes": "",
+      "id": 3
+    },
+    {
+      "name": "Ketan",
+      "profile": "../assets/images/Ellipse -3.png",
+      "gender": "male",
+      "department": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "418300",
+      "Day": "16",
+      "Month": "Sep",
+      "Year": "2021",
+      "Notes": "Abc",
+      "id": 4
+    },
+    {
+      "name": "Ashish",
+      "profile": "../assets/images/Ellipse-8.png",
+      "gender": "male",
+      "department": "Finance",
+      "salary": "40000",
+      "Day": "17",
+      "Month": "Sep",
+      "Year": "2021",
+      "notes": "",
+      "id": 5
+    },
+    {
+      "profile": "../assets/images/Ellipse-8.png",
+      "name": "Ram",
+      "gender": "male",
+      "department": "Sales",
+      "salary": "20000",
+      "Day": "14",
+      "Month": "July",
+      "Year": "2021",
+      "id": 6
+    },
+    {
+      "profile": "../assets/images/Ellipse -3.png",
+      "name": "Rahul",
+      "gender": "male",
+      "department": "Finance",
+      "salary": "10000",
+      "Day": "15",
+      "Month": "Feb",
+      "Year": "2022",
+      "id": 7
+    },
+    {
+      "profile": "../assets/images/Ellipse 1.png",
+      "name": "Swati",
+      "gender": "female",
+      "department": "Finance",
+      "salary": "20000",
+      "Day": "16",
+      "Month": "July",
+      "Year": "2021",
+      "id": 8
+    },
+    {
+      "profile": "../assets/images/Ellipse 1.png",
+      "name": "Swarupa",
+      "gender": "female",
+      "department": "HR",
+      "salary": "20000",
+      "Day": "16",
+      "Month": "Aug",
+      "Year": "2022",
+      "id": 9
+    }
+  ]
+}
